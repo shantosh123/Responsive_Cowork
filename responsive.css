@@ -1,0 +1,354 @@
+/* only for navbar */
+@media screen and (max-width: 1000px){
+   
+    body{
+        overflow-x: hidden;
+    }
+       
+        nav{
+         padding: 0px 20px;
+         position: fixed;
+     
+        }
+        
+        .checkbtn{
+         display: block;
+         margin-right: 45px;
+        }
+     
+        nav .logo p{
+         font-size: 30px;
+        }
+     
+        nav ul{
+         width: 100%;
+         height:100vh;
+         background-color: rgba(0,0,0,.3);
+         position: fixed;
+         top: 75px;
+         left: 100%;
+         text-align: center;
+         transition: .3s ease;
+        }
+     
+        nav ul li{
+         display: block;
+         margin: 60px 0px;
+         line-height: 20px;
+        }
+     
+        #check:checked ~ ul{
+         left: 0;
+     
+        }
+    
+    
+    }
+
+    @media only screen and (max-width: 500px){
+
+        .first-container{
+            flex-direction: column-reverse;
+            
+            justify-content: center;
+
+            align-items: center;
+        }
+        .first-container .second-section{
+            width: 100%;
+            
+          
+        }
+        .first-container .second-section img{
+          width: 100%;
+          height: 300px;
+
+        }
+        .first-container .first-section{
+            width: 75%;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        h1{
+            margin-top: 0px;
+            margin-bottom: 0.5px;
+            font-size: 30px;
+            line-height: 1;
+            font-weight: 700;
+        }
+
+        .second-container .third-container{
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+        }
+       .third-container .second-image{
+            width: 100%;
+           
+        }
+        .third-container .second-image img{
+            width: 100%;
+            margin-left: 25px;
+            margin-right: 0px;
+           
+        }
+        .third-container .workspace-content{
+            width: 100%;
+            margin: 10px 0px 0px 0px;
+
+        }
+        .third-container .workspace-content h2{
+            margin-top: 15px;
+            
+            font-size: 30px;
+            line-height: .9;
+            font-weight: 700;
+        }
+        .tab-menu ul{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .tab-menu ul li{
+          
+            color: #333;
+            
+            margin-left: 45px;
+            justify-content: center;
+            align-items: center;
+            font-size: 1em;
+            font-weight: 600;
+            letter-spacing: .03em;
+        
+        }
+      
+       
+        .second-container .third-section .tab-menu ul li{
+            width: 80%;
+            margin-left: 15px;
+            justify-content: center;
+            text-align: center;
+         
+
+            
+        }
+        .card-container{
+            width: 100%;
+            flex-direction: column;
+            
+            align-items: center;
+        }
+                .card-items{
+
+                    width: 200px;
+                    height: 250px;
+                    margin-top: 30px;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .card-items img{
+                    width: 150px;
+                    height: 100px;
+                }
+                .card-items button{
+                    margin-bottom: 20px;
+                }
+                .card-section h1{
+                    margin-top: 40px;
+                }
+
+        
+      
+    }
+    @media only screen and (min-width:200px) and (max-width: 767px){
+
+
+
+        .card-container{
+            width: 100%;
+            flex-direction: column;
+            
+            align-items: center;
+        }
+        .card-items button{
+            margin-bottom: 20px;
+        }
+        
+        }
+
+@media only screen and (min-width:768px) and (max-width: 1000px){
+
+    .card-container{
+        width: 100%;
+        flex-direction: column;
+        
+        align-items: center;
+    }
+            .card-items{
+                width: 600px;
+                height: 700px;
+                margin-top: 30px;
+            }
+            .card-items img{
+                width: 400px;
+                height: 300px;
+            }
+            .card-items button{
+                margin-bottom: 20px;
+            }
+            .card-section h1{
+                margin-top: 40px;
+            }
+            
+            }
+ 
+@media only screen and (min-width: 501px)and (max-width: 991px){
+        .first-container{
+            flex-direction: column-reverse;
+            
+            justify-content: center;
+
+            align-items: center;
+        }
+        .first-container .second-section{
+            width: 100%;
+          
+        }
+        .first-container .second-section img{
+          width: 100%;
+          height: 490px;
+
+        }
+        .first-container .first-section{
+            width: 80%;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .first-container .first-section p{
+            margin: 5px;
+        }
+        h1{
+            margin-top: 0px;
+            margin-bottom: 0.5px;
+            font-size: 32px;
+            line-height: 1;
+            font-weight: 700;
+        }
+        .about{
+            font-size: 22px;
+        }
+        .card-items .about{
+            font-size: 19px;
+        }
+        
+        .second-container .third-container{
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+        }
+        .tab-menu ul{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .tab-menu ul li{
+           flex-direction: row;
+            color: #333;
+            
+            margin-left: 45px;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.1em;
+            font-weight: 700;
+            letter-spacing: .03em;
+        
+        }
+      
+       
+        .second-container .third-section .tab-menu ul li{
+            width: 80%;
+            margin-left: 15px;
+            justify-content: center;
+            text-align: center;
+         
+
+            
+        }
+       .third-container .second-image{
+            width: 100%;
+           
+        }
+        .third-container .second-image img{
+            width: 100%;
+            margin-left: 50px;
+            margin-right: 0px;
+           
+        }
+       
+       
+        .third-container .workspace-content{
+            width: 100%;
+            margin: 20px 0px 0px 0px;
+
+        }
+        .third-container .workspace-content h2{
+            margin-top: 15px;
+            
+            font-size: 38px;
+            line-height: .9;
+            font-weight: 700;
+        }
+        .card-container{
+            width: 100%;
+            flex-direction: column;
+            
+            align-items: center;
+        }
+        .card-items{
+                    width: 90%;
+                    margin-top: 30px;
+                    justify-content: center;
+                }
+        .card-items img{
+                    width: 350px;
+                    height: 250px;
+                }
+        .card-items button{
+                    margin-bottom: 20px;
+                }
+        .card-section h1{
+                    margin-top: 40px;
+                }
+      
+    }
+
+    @media only screen and (min-width:1190px){
+        .hr-row{
+            width: 85%;
+            height: 2px;
+            margin-top: 30px;
+
+          
+           
+           
+            
+        
+        }
+
+        .tab-menu{
+            margin-left:16%;
+            margin-right: 5%;
+            justify-content: center;
+        }
+       
+    }
+    @media only screen and (max-width:400px) {
+        .card-items{
+            width: 80%;
+          
+        }
+    }
+    @media only screen and (min-width:400px) and (max-width:499px){
+        .card-items{
+            width: 80%;
+          
+        }
+    }
